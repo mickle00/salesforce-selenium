@@ -1,4 +1,4 @@
-STARTING THE SERVER
+##STARTING THE SERVER
 #Basic mode with one node
 java -jar selenium-server-standalone-2.14.0.jar
 
