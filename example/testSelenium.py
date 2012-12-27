@@ -13,7 +13,7 @@ class TestSelenium(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.remote.webdriver.WebDriver('http://127.0.0.1:4444/wd/hub',{"browserName": 'firefox'})
         self.driver.implicitly_wait(30)
-        self.base_url = "http://www.yahoo.com"
+        # self.base_url = "http://www.yahoo.com"
         self.verificationErrors = []
         self.accept_next_alert = True
     
